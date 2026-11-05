@@ -22,7 +22,7 @@ best_student = max(students, key=students.get)
 print(f"最高分学生：{best_student}")
 print(f"最高成绩：{students[best_student]}")
 
-# 添加一名学生
+# 添加一名学生人
 students["小明"] = 88
 
 print("\n添加学生后：")
